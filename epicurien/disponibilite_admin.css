@@ -1,0 +1,108 @@
+/* IMPORT FONT CSS */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playball&display=swap');
+
+
+body{ 
+    background: url("images/background.jpg") fixed center;
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    font-family: "Luxurious Roman", sans-serif;
+    font-size: 14px;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  
+}
+
+#main_container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 0px;
+}
+.imgheader{
+   
+   width: 100%;
+   height:250px;  
+   object-fit: cover;
+   /* padding-bottom: 5%; */
+}
+
+.container_h{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 15%; */
+    width: 100%;
+
+}
+
+h1{
+    font-family: "Playball";
+    font-size:36px;
+    margin: 0px;
+    
+}
+h2{
+    font-family:"Playball";
+    font-size: 21px;
+    margin: 0px;
+}
+
+h3{
+    font-family: "Luxurious Roman";
+    font-size: 14px;
+    margin: 0px;
+
+}
+
+.contenair1{
+    /* display: flexbox; 
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    display: flex;
+    flex-direction: row;
+    align-items: top; 
+    justify-content: center;
+    /* margin-left: 368px;
+    margin-right: 191px;
+    margin-top: 20px;
+    padding-left: 0px; */
+    background-color: #b6e8b8; 
+    border-radius: 30px;
+    text-align: justify;
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.days_div{
+    font-family: "Luxurious Roman";
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    color:black;
+    width: 20%;
+    margin: 3px;
+}
+
+.times_div{
+    font-family: "Luxurious Roman";
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    color:rgb(6, 147, 22);
+    width: 20%;
+    margin: 3px;
+
+
+}
+.dimanche{
+    color: red;
+    font-family: "Luxurious Roman";
+    font-size: 14px;
+}

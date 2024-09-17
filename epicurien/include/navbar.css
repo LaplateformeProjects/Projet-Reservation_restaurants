@@ -1,0 +1,113 @@
+/* IMPORT FONT CSS */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playball&display=swap');
+
+
+
+
+/* Header */
+header {
+    background-color: #b6e8b8; 
+    padding: 10px 0;
+    color: rgb(6, 147, 22);
+    display:flex;
+
+    width: 20%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    /* position: fixed; */
+     /* Make it stick, even on scroll */
+    /* overflow: auto; Enable scrolling if the sidenav has too much content */ 
+}
+
+ /* Trait de séparation  */
+.separator{
+
+    border: 1px solid rgb(6, 147, 22);
+
+    width: 100%;
+
+}
+a:link { 
+    text-decoration: none;
+    color:rgba(12, 137, 43, 0.992);
+    
+} 
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 28px;
+    color: rgb(6, 147, 22);
+}
+.menuheader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.menuheader ul {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:rgb(6, 147, 22);
+    /* position: fixed; Make it stick, even on scroll */
+    /* overflow: auto; Enable scrolling if the sidenav has too much content */
+    /* list-style-type: none; */
+    /* text-decoration: none; */
+}
+
+.menuheader .logo img {
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.menuheader .rubrique p {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Playball";
+    color:rgb(6, 147, 22);
+}
+
+
+
+/* Affiche cette section si l'user est connecté */
+.user_connecte {
+    display:flex;
+    width: 176px;
+    height: 85px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start; 
+    
+}
+/* Affiche cette section si l'admin est connecté */
+.admin_connecte {
+    display:flex;
+    width: 250px;
+    height: 85px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start; 
+    
+}
+ /* Affiche cette section si personne n'est connecté */
+.deconnecte {
+
+    display:flex;
+    width: 176px;
+    height: 85px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start; 
+   
+}

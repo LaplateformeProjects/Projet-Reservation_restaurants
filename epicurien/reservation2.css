@@ -1,0 +1,150 @@
+/* IMPORT FONT CSS */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playball&display=swap');
+
+
+body{ 
+    background: url("images/background.jpg") fixed center;
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    /* font-family: "Luxurious Roman", sans-serif; */
+    /* font-size: 14px; */
+    /* height: 100vh;  */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  
+}
+
+#main_container{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: center;
+    margin: 0px;
+}
+
+/* /* .titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 15%; */
+    /* width: 100%; */ 
+
+
+h1{
+    font-family: "Playball";
+    font-size:36px;
+    
+    
+}
+h2{
+    font-family:"Luxurious Roman";
+    font-size: 21px;
+    margin: 0px;
+    padding-right: 280px;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: top;  */
+    /* justify-content: center; */
+    /* text-align: justify; */
+    width: 90%;
+    margin-bottom: 15px;
+    /* margin-top: 15px; */
+
+
+}
+
+.photo{
+  
+    width: 30%; 
+    /* height: 165px; */
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+#bloc{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    align-items: stretch;
+}
+
+/* #bloc2{
+   
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    align-items: stretch;
+
+}
+
+#bloc3{
+   
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 30px; */
+    /* align-items: stretch;
+} */ 
+
+.info{
+
+display: flex;
+flex-direction: column;
+background-color: #f4f4f4;
+border: 1px solid black;
+padding-left: 15px;
+width: 315px; 
+height: 213px;
+
+}
+
+.info_icon{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    width: 19px;
+    height: 19px;
+    margin-top: 4px;
+    padding-left: 7px;
+    
+}
+
+.name{
+    text-align: center;
+}
+h3{
+    padding-bottom: 2px;
+    font-size: 16px;
+    font-family: "Luxurious Roman", sans-serif;
+}
+p{
+    margin-top: 5px; 
+    font-family: "Luxurious Roman", sans-serif;
+    font-size: 14px;
+}
+
+.card_button{
+    padding-left: 85px;
+}
+
+button{
+    /* border: 3; */
+    line-height: 2.2;
+    padding: 0 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 20px;
+    background-color: rgba(5, 180, 67, 1);
+    
+}

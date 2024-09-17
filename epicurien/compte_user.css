@@ -1,0 +1,68 @@
+/* IMPORT FONT CSS */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playball&display=swap');
+
+body {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Luxurious Roman', sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container_main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#form {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.gender-label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #3a874b;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px O;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

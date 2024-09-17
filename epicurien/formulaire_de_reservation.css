@@ -1,0 +1,54 @@
+/* IMPORT FONT CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playball&display=swap');
+
+
+body{ 
+    background: url("images/background.jpg") fixed center;
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    font-family: "Luxurious Roman", sans-serif;
+
+}
+
+#container_main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 0px;
+}
+
+.headerimg{
+    width: 100%;
+    height:270px;  
+    object-fit: cover;
+    /* padding-bottom: 5%; */
+ }
+
+#form{
+    margin-bottom: 10px;
+}
+
+.rectangle{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3a874b;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px O;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}

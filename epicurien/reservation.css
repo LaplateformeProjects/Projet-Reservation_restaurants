@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+  }
+
+.title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgba(5, 180, 67, 1);
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Playball';
+}
+
+.card-titre{
+  font-size: 50px;
+}
+
+.card-tdc{
+  margin: 70px;
+}
+
+.card-hp{
+  margin-right: 105px;
+}
+
+.restau-card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+.card {
+    display: flex;
+    margin-top: 50px;
+}
+  
+.card-cover>img {
+    border-radius: 10px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    font-family: 'Luxurious Roman';
+    background-color: #ffffff ;
+    border-radius: 20px ;
+    width: 400px;
+}
+
+.card-infos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-left: 45px;
+}
+
+.card-note{
+  margin-left: 250px;
+  display: flex;
+}
+
+.card-btn {
+    border: 3;
+    line-height: 2.2;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 20px;
+    background-color: rgba(5, 180, 67, 1);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    
+  }
+  
+  .card-pagination{
+   margin-top: 50px;
+   margin-left: 100px;
+   display: flex;
+  }
+
+  .card-pgnt{
+    align-self: center;
+    border: 1;
+    line-height: 1.0;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(5, 180, 67, 1);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+      
+  }
+
+  

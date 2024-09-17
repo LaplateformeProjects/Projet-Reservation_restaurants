@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playball&display=swap');
+
+
+
+/* Pour déplacer le curseur quand checkbox valide */
+.switch input:checked + span:before {
+    left: 34px;
+}
+
+body {
+    padding-top: 20px;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#toggle{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+    /* taille du switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+  }
+  
+    /* cacher la checkbox */
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(117, 235, 131);
+    border: 1px solid rgb(15, 16, 7);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 4px;
+    bottom: 2px;
+    background-color:rgb(12, 12, 1);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #3a874b;
+    
+  
+  }
+  
+  input:focus + .slider {
+    box-shadow: 3px 3px 3px rgb(205 229 38);
+  }
+  
+  input:checked + .slider:before{
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(-12px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+.logo {
+margin-top: 150px;
+margin-left: 170px;
+}
+
+h1 {
+    font-family: "Playball";
+    color: black;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "Playball";
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+p{
+    display: inline-block;
+    font-family: "Luxurious Roman";
+    font-size: 12px;
+    margin: 3px;
+}
+
+input[type="email"], 
+input[type="conf_email"], 
+input[type="password"], 
+input[type="conf_password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #3a874b;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px O;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2e6f3b;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #3a874b;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}

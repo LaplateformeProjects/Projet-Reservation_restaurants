@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playball&display=swap');
+
+body {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+margin-left: 60px;
+}
+
+h1 {
+    font-family: "Playball";
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Playball";
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px; 
+    margin-left: 50px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #3a874b;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px O;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2e6f3b;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #3a874b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
